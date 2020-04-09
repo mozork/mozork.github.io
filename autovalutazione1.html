@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="style/animsition.min.css">
+  </head>
+  <body>
+  <div class="animsition">
+    <img class="date" src="img/date.svg" alt="">
+    <img class="logo" src="img/logo.svg" alt="">
+    <button class="button button-small button--back animsition-link" onclick="history.back(-1)"><img src="img/arrow-left.svg" alt="">Indietro</button>
+    <img src="img/autovalutazione-step1.svg" alt="" class="autovalutazione-step">
+    <div class="page-title">I tuoi primi esercizi</div>
+    <div class="page-intro">Segui le istruzioni del coach ed inizia a seguire<br>
+      i suoi movimenti. Alla fine, valuterai come è andata <br>
+      e potrai personalizzare i tuoi risultati
+    </div>
+    <a href="autovalutazione2.html" class="button button--icon button--fill autovalutazione1-button1 animsition-link">Inizia<img src="img/yoga.svg" alt=""></a>
+    <a href="profilo1.html" class="button button--icon autovalutazione1-button2 animsition-link">Salta autovalutazione<img src="img/forward.svg" alt=""></a>
+  </div>
+
+  <script src="scripts/jquery-1.7.min.js"></script>
+  <script src="scripts/animsition.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.animsition').animsition({
+      inClass:'zoom-in-sm',
+      outClass:'zoom-out-sm'
+    })
+    .one('animsition.inStart',function(){
+      console.log('event -> inStart');
+    })
+    .one('animsition.inEnd',function(){
+      console.log('event -> inEnd');
+    });
+
+    $('.language-choice').on('click', function(){
+      $('.language-choice').removeClass('active');
+      $(this).addClass('active');
+    })
+  });
+  </script>
+  <script src="scripts/app.js"></script>
+  </body>
+</html>

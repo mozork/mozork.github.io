@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>button/round-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MPG/profilo-overview" transform="translate(-1340.000000, -611.000000)" fill="#FFFFFF">
+            <g id="Group-4" transform="translate(661.000000, 353.000000)">
+                <g id="button/round/round-icon" transform="translate(679.000000, 258.000000)">
+                    <circle id="Oval" fill-opacity="0.15" cx="40" cy="40" r="40"></circle>
+                    <g id="icon/misc/edit" transform="translate(13.333333, 13.333333)" fill-opacity="0.4">
+                        <path d="M14.6666667,33.6666667 L14.6666667,38.6666667 L19.6666667,38.6666667 L34.42,23.9133333 L29.42,18.9133333 L14.6666667,33.6666667 Z M38.2733333,20.06 C38.7933333,19.54 38.7933333,18.6933333 38.2733333,18.1733333 L35.16,15.06 C34.64,14.54 33.7933333,14.54 33.2733333,15.06 L30.8333333,17.5 L35.8333333,22.5 L38.2733333,20.06 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

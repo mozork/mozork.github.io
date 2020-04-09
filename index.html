@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="style/animsition.min.css">
+  </head>
+  <body>
+    <div class="animsition">
+      <a href="language.html" class="animsition-link hidden">vai a prova</a>
+
+      <img class="logo-index" src="img/logo.svg" alt="">
+      <img class="spinner-index" src="img/spinner.svg" alt="">
+    </div>
+
+    <script src="scripts/jquery-1.7.min.js"></script>
+    <script src="scripts/animsition.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.animsition').animsition();
+        setTimeout( function(){
+          $('.animsition-link').click();
+          console.log('click');
+        }  , 2000 );
+      });
+    </script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

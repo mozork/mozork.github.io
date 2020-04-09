@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="style/animsition.min.css">
+  </head>
+  <body>
+  <div class="animsition">
+    <img class="date" src="img/date.svg" alt="">
+    <img class="logo" src="img/logo.svg" alt="">
+    <img src="img/autovalutazione-step1.svg" alt="" class="autovalutazione-step">
+    <div class="page-title-label">Esercizio 2/3</div>
+    <div class="page-title page-title--withlabel">Saltelli sul posto</div>
+    <video id="video" class="video-exercise" preload="metadata" poster="video/poster-placeholder.png" data-setup="{}">
+      <source src="video/video-placeholder.mp4" type="video/mp4">
+    </video>
+    <div class="progressBar-container">
+      <div class="progressBar"></div>
+    </div>
+    <div class="remainTime">
+      <span class="minutesTime"></span> : <span class="secondsTime"></span>
+    </div>
+    <a href="#" class="playBtn button button--icon button--fill autovalutazione2-button1">Sono pronto <img src="img/play.svg" alt=""></a>
+    <div class="video-controls">
+      <img src="img/pause.svg" alt="" class="pauseBtn">
+      <a href="autovalutazione4.html" class="animsition-link next">
+        <img src="img/next.svg" alt="">
+      </a>
+      <div class="fine-video">fine video</div>
+    </div>
+    <div class="bg-blur"></div>
+    <div class="difficulty">
+      <div class="page-intro">Quanto è stato difficile?</div>
+      <div class="difficulty-bar">
+        <div class="difficulty-bar1"></div>
+        <div class="difficulty-bar2"></div>
+        <div class="difficulty-bar3"></div>
+        <div class="difficulty-bar4"></div>
+        <div class="difficulty-bar5"></div>
+      </div>
+      <div class="difficulty-label difficulty-label--min">Per niente</div>
+      <div class="difficulty-label difficulty-label--selected"></div>
+      <div class="difficulty-label difficulty-label--max">Estremamente</div>
+    </div>
+    <a href="autovalutazione4.html" class="button button--icon button--fill autovalutazione2-button2 animsition-link">Vai al prossimo esercizio<img src="img/arrow-right.svg" alt=""></a>
+  </div>
+
+
+  <script src="scripts/jquery-1.7.min.js"></script>
+  <script src="scripts/animsition.min.js"></script>
+  <script src="scripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>wifi-empty</title>
+    <desc>Created with Sketch.</desc>
+    <g id="wifi-empty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, 14.000000)" fill="#FFFFFF">
+            <path d="M4.97379915e-14,15.1750125 L6.66666668,21.8416792 C23.2333334,5.27501251 50.1000001,5.27501251 66.6666668,21.8416792 L73.3333334,15.1750125 C53.1000001,-5.05833751 20.2666667,-5.05833751 4.97379915e-14,15.1750125 Z" id="Path" fill-opacity="0.15"></path>
+            <path d="M26.6666667,41.8418459 L36.6666667,51.8418459 L46.6666667,41.8418459 C41.1666667,36.3085125 32.2,36.3085125 26.6666667,41.8418459 Z" id="Path"></path>
+            <path d="M20,35.1753459 L13.3333334,28.5086792 C26.2333334,15.6420125 47.1333334,15.6420125 60.0000001,28.5086792 L53.3333334,35.1753459 C44.1333334,25.9753459 29.2,25.9753459 20,35.1753459 Z" id="Path" fill-opacity="0.15"></path>
+        </g>
+    </g>
+</svg>

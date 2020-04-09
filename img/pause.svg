@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>button/round-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elements/esercizio-progress-bar" transform="translate(-1800.000000, -308.000000)" fill="#FFFFFF">
+            <g id="button/round/round-icon" transform="translate(1800.000000, 308.000000)">
+                <circle id="Oval" fill-opacity="0.15" cx="60" cy="60" r="60"></circle>
+                <g id="icon/controls/pause" transform="translate(20.000000, 20.000000)">
+                    <path d="M24,63.3333334 L29.3333333,63.3333334 C31.5424723,63.3333334 33.3333333,61.5424724 33.3333333,59.3333334 L33.3333333,20.6666666 C33.3333333,18.4575276 31.5424723,16.6666666 29.3333333,16.6666666 L24,16.6666666 C21.790861,16.6666666 20,18.4575276 20,20.6666666 L20,59.3333334 C20,61.5424724 21.790861,63.3333334 24,63.3333334 Z M46.6666667,20.6666666 L46.6666667,59.3333334 C46.6666667,61.5424724 48.4575277,63.3333334 50.6666667,63.3333334 L56,63.3333334 C58.209139,63.3333334 60,61.5424724 60,59.3333334 L60,20.6666666 C60,18.4575276 58.209139,16.6666666 56,16.6666666 L50.6666667,16.6666666 C48.4575277,16.6666666 46.6666667,18.4575276 46.6666667,20.6666666 Z" id="ic_pause_48px"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
